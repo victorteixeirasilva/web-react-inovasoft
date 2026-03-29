@@ -1,0 +1,14 @@
+# Hostinger / Apache: pastas sem index podem falhar; Next export usa trailingSlash.
+DirectoryIndex index.html
+
+<IfModule mod_mime.c>
+  AddType application/javascript js mjs
+  AddType text/css css
+</IfModule>
+
+# Cache estático (ajuste conforme necessário)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2?|webp|png|jpg|jpeg|gif|svg|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>

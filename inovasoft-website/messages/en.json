@@ -1,0 +1,210 @@
+{
+  "LocaleLayout": {
+    "title": "InovaSoft | Premium digital solutions",
+    "description": "Websites, web systems and sophisticated digital experiences for companies that want to grow with performance and strategy."
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  },
+  "Nav": {
+    "solutions": "Solutions",
+    "inevolving": "InEvolving",
+    "portfolio": "Portfolio",
+    "portfolioFull": "Full portfolio",
+    "contact": "Contact",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "Aria": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Home": {
+    "badge": "Outcome-driven software engineering",
+    "heroTitle": "We craft premium digital experiences for brands ready to grow.",
+    "heroLead": "InovaSoft turns ideas into sophisticated digital products—modern design, performance, and go-to-market strategy to generate leads and sales.",
+    "ctaPrimary": "Start a premium project",
+    "ctaPortfolio": "View portfolio",
+    "ctaPortfolioFull": "Full portfolio",
+    "stats": {
+      "delivered": "Projects delivered",
+      "support": "Support availability",
+      "kickoff": "Average kickoff time",
+      "suffixDays": " days"
+    },
+    "methodTitle": "Method",
+    "methodSteps": {
+      "1": "01. Business discovery and strategy",
+      "2": "02. UX/UI with strong brand identity",
+      "3": "03. Engineering with React + Next.js",
+      "4": "04. Launch, technical SEO, and ongoing support"
+    },
+    "solutionsKicker": "Solutions",
+    "solutionsTitle": "Sophisticated design with cutting-edge technology",
+    "solutions": {
+      "a": {
+        "title": "Corporate websites and landing pages",
+        "description": "Strategic pages to build authority, capture leads, and turn visitors into real opportunities."
+      },
+      "b": {
+        "title": "Custom e-commerce and portals",
+        "description": "High-performance platforms for catalog, sales, payments, and streamlined administration."
+      },
+      "c": {
+        "title": "Web systems, APIs, and databases",
+        "description": "Robust architecture to digitize operations and integrate processes securely at scale."
+      }
+    },
+    "techStack": {
+      "seo": "Technical SEO"
+    },
+    "inevolvingKicker": "Featured case",
+    "inevolvingTitle": "InEvolving: a real, testable product ready to scale",
+    "inevolvingBody": "This project showcases our ability to deliver complete systems with authentication, dashboards, and a user-first experience—so stakeholders quickly see technology, impact, and outcomes.",
+    "inevolvingCtaDemo": "Request a live demo",
+    "inevolvingCtaAccess": "Get technical access",
+    "whyTitle": "Why it matters",
+    "whyItems": {
+      "1": "A navigable product to validate usability and business flows.",
+      "2": "Modern architecture focused on security and performance.",
+      "3": "Clean code that accelerates iterations and new features.",
+      "4": "An experience ready for national and international markets."
+    },
+    "portfolioKicker": "Portfolio",
+    "portfolioTitle": "Real projects with visible outcomes",
+    "diffKicker": "Differentiators",
+    "diffTitle": "What makes us unique",
+    "differentials": {
+      "1": "Lean senior squad: strategy, UX, and engineering in one workflow.",
+      "2": "ROI-focused delivery aimed at sales and operations.",
+      "3": "Rapid prototyping, data-informed validation, and continuous improvement.",
+      "4": "Clean React/Next.js code built for international growth."
+    },
+    "techCards": {
+      "frontend": {
+        "title": "Modern front-end",
+        "text": "React, Next.js, and TypeScript with UX and SEO in mind."
+      },
+      "cloud": {
+        "title": "Cloud and deploy",
+        "text": "Cloud architecture with CI/CD, monitoring, and scale."
+      },
+      "security": {
+        "title": "Security",
+        "text": "Strong authentication, validation, and data protection practices."
+      },
+      "performance": {
+        "title": "Performance",
+        "text": "Core Web Vitals tuned for conversion and ranking."
+      }
+    },
+    "footerTagline": "We build elegant digital products designed for growth.",
+    "footerContact": "Contact",
+    "footerCtaTitle": "Talk to us",
+    "footerCta": "Start a conversation",
+    "country": "Brazil",
+    "homePortfolio": {
+      "pk": "PK Hortifruti",
+      "blog": "Blog Alma Bela",
+      "traffic": "Tráfego Supremo",
+      "zeus": "Zeus Advogados"
+    }
+  },
+  "Common": {
+    "viewProject": "View project",
+    "repo": "Repository",
+    "backHome": "Back to home",
+    "requestProposal": "Request a proposal"
+  },
+  "PortfolioPage": {
+    "badge": "Full portfolio",
+    "title": "Cases organized by technology and expertise",
+    "lead": "A scalable structure: add new projects per tab by updating the data file and translation JSON files.",
+    "howTitle": "How to add more projects",
+    "howBody": "Add metadata in src/data/portfolio.ts and translated copy in messages/{pt,en,es}.json under portfolio.projects."
+  },
+  "portfolio": {
+    "categories": {
+      "wordpress": {
+        "label": "WordPress sites",
+        "description": "Landing pages, corporate sites, and WordPress portals focused on conversion, SEO, and performance."
+      },
+      "react": {
+        "label": "React projects",
+        "description": "Modern web apps with React and Next.js—premium UX and scalable architecture."
+      },
+      "mobile": {
+        "label": "Mobile apps (PWA / Native)",
+        "description": "Mobile apps for operations, sales, and customer engagement—PWA and native."
+      },
+      "backendJava": {
+        "label": "Java back-end",
+        "description": "Corporate Java APIs and services for system integration and robust processing."
+      }
+    },
+    "projects": {
+      "wp_pkhortifruti": {
+        "name": "PK Hortifruti",
+        "summary": "Corporate site with product catalog focused on lead generation."
+      },
+      "wp_trafegosupremo": {
+        "name": "Trafego Supremo",
+        "summary": "Landing page for selling an online course on paid traffic (Google Ads, Meta Ads, TikTok Ads) focused on lead capture and registration, featuring structured modules, social proof with testimonials, a 7-day guarantee, and a direct conversion CTA with pricing."
+      },
+      "wp_blogalmabela": {
+        "name": "Blog Alma Bela",
+        "summary": "Content portal with category architecture and blog strategy."
+      },
+      "react_inevolving": {
+        "name": "InEvolving Platform",
+        "summary": "Web platform with dashboard, authentication, and full user journey."
+      },
+      "wp_zeus": {
+        "name": "Zeus Advogados",
+        "summary": "Project focused on brand authority and fluid navigation."
+      },
+      "wp_adncurso": {
+        "name": "ADN Curso",
+        "summary": "Online course site with module overview, value proposition, and enrollment-focused calls to action."
+      },
+      "wp_cursoadn": {
+        "name": "Curso ADN",
+        "summary": "Training sales landing or portal structured for conversion and SEO."
+      },
+      "wp_heliopsi": {
+        "name": "Hélio Russo — Psychology",
+        "summary": "Professional psychologist website with services, approach, and contact."
+      },
+      "wp_inovarenutricao": {
+        "name": "Inova Nutrição",
+        "summary": "Nutrition brand site focused on credibility, client information, and contact or booking."
+      },
+      "wp_nexus": {
+        "name": "Nexus",
+        "summary": "Institutional or portfolio site with a premium look and strong visual presentation."
+      },
+      "wp_inovasoft_demo": {
+        "name": "InovaSoft WordPress showcase",
+        "summary": "WordPress demo with Elementor plus performance and SEO best practices."
+      },
+      "mobile_sales_pwa": {
+        "name": "Sales PWA Suite",
+        "summary": "PWA for commercial teams with offline usage and automatic sync."
+      },
+      "mobile_field_native": {
+        "name": "Field Ops Native",
+        "summary": "Native app for field teams with checklists, geolocation, and evidence capture."
+      },
+      "java_api_gateway": {
+        "name": "Enterprise API Gateway",
+        "summary": "Service layer integrating ERPs, CRMs, and financial systems."
+      },
+      "java_payments_core": {
+        "name": "Payments Core Service",
+        "summary": "Microservice for payment rules, reconciliation, and auditing."
+      }
+    }
+  }
+}

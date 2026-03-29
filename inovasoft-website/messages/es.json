@@ -1,0 +1,210 @@
+{
+  "LocaleLayout": {
+    "title": "InovaSoft | Soluciones digitales premium",
+    "description": "Sitios web, sistemas y experiencias digitales sofisticadas para empresas que quieren crecer con rendimiento y estrategia."
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma",
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  },
+  "Nav": {
+    "solutions": "Soluciones",
+    "inevolving": "InEvolving",
+    "portfolio": "Portafolio",
+    "portfolioFull": "Portafolio completo",
+    "contact": "Contacto",
+    "whatsapp": "Hablar por WhatsApp"
+  },
+  "Aria": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "Home": {
+    "badge": "Ingeniería de software orientada a resultados",
+    "heroTitle": "Creamos experiencias digitales premium para marcas que quieren crecer.",
+    "heroLead": "InovaSoft transforma ideas en productos digitales sofisticados: diseño moderno, rendimiento y estrategia comercial para generar leads y ventas.",
+    "ctaPrimary": "Quiero un proyecto premium",
+    "ctaPortfolio": "Ver portafolio",
+    "ctaPortfolioFull": "Portafolio completo",
+    "stats": {
+      "delivered": "Proyectos entregados",
+      "support": "Disponibilidad de soporte",
+      "kickoff": "Tiempo medio de arranque",
+      "suffixDays": " días"
+    },
+    "methodTitle": "Método",
+    "methodSteps": {
+      "1": "01. Diagnóstico y estrategia de negocio",
+      "2": "02. UX/UI con identidad fuerte de marca",
+      "3": "03. Desarrollo con React + Next.js",
+      "4": "04. Publicación, SEO técnico y soporte continuo"
+    },
+    "solutionsKicker": "Soluciones",
+    "solutionsTitle": "Diseño sofisticado con tecnología de punta",
+    "solutions": {
+      "a": {
+        "title": "Sitios institucionales y landing pages",
+        "description": "Páginas estratégicas para generar autoridad, capturar leads y convertir visitas en oportunidades reales."
+      },
+      "b": {
+        "title": "E-commerce y portales a medida",
+        "description": "Plataformas de alto rendimiento para catálogo, ventas, pagos y administración simplificada."
+      },
+      "c": {
+        "title": "Sistemas web, APIs y bases de datos",
+        "description": "Arquitectura robusta para digitalizar operaciones e integrar procesos con seguridad y escala."
+      }
+    },
+    "techStack": {
+      "seo": "SEO técnico"
+    },
+    "inevolvingKicker": "Caso destacado",
+    "inevolvingTitle": "InEvolving: producto real, testeable y listo para escalar",
+    "inevolvingBody": "Este proyecto muestra nuestra capacidad de construir sistemas completos con autenticación, dashboard y experiencia centrada en el usuario. El cliente entiende rápido tecnología, impacto y resultado.",
+    "inevolvingCtaDemo": "Solicitar demo en vivo",
+    "inevolvingCtaAccess": "Recibir acceso técnico",
+    "whyTitle": "Por qué importa",
+    "whyItems": {
+      "1": "Producto navegable para validar usabilidad y flujo de negocio.",
+      "2": "Arquitectura moderna con foco en seguridad y rendimiento.",
+      "3": "Código organizado para acelerar evoluciones y nuevas funcionalidades.",
+      "4": "Experiencia lista para mercados nacionales e internacionales."
+    },
+    "portfolioKicker": "Portafolio",
+    "portfolioTitle": "Proyectos reales con resultados visibles",
+    "diffKicker": "Diferenciales",
+    "diffTitle": "Lo que nos hace únicos",
+    "differentials": {
+      "1": "Equipo senior y enxuto: estrategia, UX e ingeniería en el mismo flujo.",
+      "2": "Entrega orientada al ROI con foco en ventas y operación.",
+      "3": "Prototipado rápido, validación con datos y mejora continua.",
+      "4": "Código limpio en React/Next.js listo para crecimiento internacional."
+    },
+    "techCards": {
+      "frontend": {
+        "title": "Front-end moderno",
+        "text": "React, Next.js y TypeScript con foco en UX y SEO."
+      },
+      "cloud": {
+        "title": "Cloud y deploy",
+        "text": "Arquitectura cloud con CI/CD, monitoreo y escala."
+      },
+      "security": {
+        "title": "Seguridad",
+        "text": "Buenas prácticas de autenticación, validación y protección de datos."
+      },
+      "performance": {
+        "title": "Rendimiento",
+        "text": "Core Web Vitals optimizadas para conversión y posicionamiento."
+      }
+    },
+    "footerTagline": "Creamos productos digitales elegantes, funcionales y orientados al crecimiento.",
+    "footerContact": "Contacto",
+    "footerCtaTitle": "Hablemos",
+    "footerCta": "Iniciar atención",
+    "country": "Brasil",
+    "homePortfolio": {
+      "pk": "PK Hortifruti",
+      "blog": "Blog Alma Bela",
+      "traffic": "Tráfego Supremo",
+      "zeus": "Zeus Advogados"
+    }
+  },
+  "Common": {
+    "viewProject": "Ver proyecto",
+    "repo": "Repositorio",
+    "backHome": "Volver al inicio",
+    "requestProposal": "Solicitar propuesta"
+  },
+  "PortfolioPage": {
+    "badge": "Portafolio completo",
+    "title": "Casos organizados por tecnología y especialidad",
+    "lead": "Estructura lista para crecer: agrega proyectos en cada pestaña actualizando un único archivo de datos y las traducciones.",
+    "howTitle": "Cómo agregar más proyectos",
+    "howBody": "Añade metadatos en src/data/portfolio.ts y textos en messages/{pt,en,es}.json (portfolio.projects)."
+  },
+  "portfolio": {
+    "categories": {
+      "wordpress": {
+        "label": "Sitios WordPress",
+        "description": "Landing pages, institucionales y portales en WordPress con foco en conversión, SEO y rendimiento."
+      },
+      "react": {
+        "label": "Proyectos React",
+        "description": "Aplicaciones web modernas con React y Next.js, experiencia premium y arquitectura escalable."
+      },
+      "mobile": {
+        "label": "Apps móviles (PWA / Native)",
+        "description": "Apps móviles para operación, ventas y relación con clientes, en PWA y nativo."
+      },
+      "backendJava": {
+        "label": "Back-end Java",
+        "description": "APIs y servicios corporativos en Java para integración de sistemas y procesamiento robusto."
+      }
+    },
+    "projects": {
+      "wp_pkhortifruti": {
+        "name": "PK Hortifruti",
+        "summary": "Sitio institucional con catálogo de productos y foco en generación de leads."
+      },
+      "wp_blogalmabela": {
+        "name": "Blog Alma Bela",
+        "summary": "Portal de contenido con arquitectura de categorías y estrategia de blog."
+      },
+      "react_inevolving": {
+        "name": "InEvolving Platform",
+        "summary": "Plataforma web con dashboard, autenticación y journey completo del usuario."
+      },
+      "wp_trafegosupremo": {
+        "name": "Trafego Supremo",
+        "summary": "Página de destino para la venta de un curso online sobre tráfico de pago (Google Ads, Meta Ads, TikTok Ads), centrada en la captación de clientes potenciales y el registro, con módulos estructurados, prueba social con testimonios, una garantía de 7 días y una llamada a la acción de conversión directa con precios."
+      },
+      "mobile_sales_pwa": {
+        "name": "Sales PWA Suite",
+        "summary": "PWA para equipo comercial con uso offline y sincronización automática."
+      },
+      "mobile_field_native": {
+        "name": "Field Ops Native",
+        "summary": "App nativa para equipos externos con checklist, geolocalización y evidencias."
+      },
+      "java_api_gateway": {
+        "name": "Enterprise API Gateway",
+        "summary": "Capa de servicios para integración con ERPs, CRMs y sistemas financieros."
+      },
+      "java_payments_core": {
+        "name": "Payments Core Service",
+        "summary": "Microservicio para reglas de pago, conciliación y auditoría."
+      },
+      "wp_zeus": {
+        "name": "Zeus Advogados",
+        "summary": "Proyecto con foco en autoridad de marca y experiencia de navegación fluida."
+      },
+      "wp_adncurso": {
+        "name": "ADN Curso",
+        "summary": "Sitio de curso online con presentación de módulos, propuesta de valor y llamadas a la acción para la inscripción."
+      },
+      "wp_cursoadn": {
+        "name": "Curso ADN",
+        "summary": "Landing o portal de venta de formación orientado a la conversión y al SEO."
+      },
+      "wp_heliopsi": {
+        "name": "Hélio Russo — Psicología",
+        "summary": "Sitio profesional para psicólogo con servicios, enfoque y contacto."
+      },
+      "wp_inovarenutricao": {
+        "name": "Inova Nutrição",
+        "summary": "Presencia digital de nutrición con foco en marca, información al cliente y contacto o reserva."
+      },
+      "wp_nexus": {
+        "name": "Nexus",
+        "summary": "Sitio institucional o de portafolio con imagen premium y fuerte presentación visual."
+      },
+      "wp_inovasoft_demo": {
+        "name": "Showcase WordPress InovaSoft",
+        "summary": "Demostración WordPress con Elementor y buenas prácticas de rendimiento y SEO."
+      }
+    }
+  }
+}
