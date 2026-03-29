@@ -91,26 +91,13 @@ Empresas de tecnologia e software precisam **comunicar credibilidade em segundos
 
 ---
 
-## Demonstração visual *(placeholders — personalize com suas mídias)*
+## Demonstração visual
 
-Substitua os blocos abaixo por arquivos reais no repositório ou por links públicos.
-
-### Screenshots sugeridos
-
-```text
-docs/demo/
-├── 01-hero-desktop.png      ← Hero completo (desktop)
-├── 02-hero-mobile.png       ← Hero e menu mobile aberto
-├── 03-portfolio-home.png    ← Seção de portfólio na home
-├── 04-portfolio-page.png    ← Página /portfolio com abas
-└── 05-footer-contato.png    ← Rodapé e CTAs
-```
-
-**Como inserir no GitHub:** após adicionar as imagens, use em Markdown:
-
-```markdown
-![Hero desktop](./docs/demo/01-hero-desktop.png)
-```
+![Hero desktop](./docs/demo/01-hero-desktop.png) *← Hero completo (desktop)*
+![Hero Mobile](./docs/demo/02-hero-mobile.png) *← Hero e menu mobile aberto*
+![Portfólio Home](./docs/demo/03-portfolio-home.png) *← Seção de portfólio na home*
+![Portfólio](./docs/demo/04-portfolio-page.png) *← Página /portfolio com abas*
+![Footer](./docs/demo/05-footer-contato.png) *← Rodapé e CTAs*
 
 ### GIF ou vídeo *(opcional)*
 
@@ -201,8 +188,8 @@ npx serve out
 
 **Autor do portfólio**
 
-- **LinkedIn:** `https://www.linkedin.com/in/SEU-USUARIO`  
-- **GitHub:** `https://github.com/SEU-USUARIO`  
-- **E-mail pessoal:** `seu.email@exemplo.com`  
+- **LinkedIn:** `https://www.linkedin.com/in/victor-teixeira-354a131a3/`  
+- **GitHub:** `https://github.com/victorteixeirasilva`  
+- **E-mail pessoal:** `victor.teixeira@inovasoft.tech`  
 
 ---
