@@ -93,11 +93,20 @@ Empresas de tecnologia e software precisam **comunicar credibilidade em segundos
 
 ## Demonstração visual
 
-![Hero desktop](./docs/demo/01-hero-desktop.png) *← Hero completo (desktop)*
-![Hero Mobile](./docs/demo/02-hero-mobile.png) *← Hero e menu mobile aberto*
-![Portfólio Home](./docs/demo/03-portfolio-home.png) *← Seção de portfólio na home*
-![Portfólio](./docs/demo/04-portfolio-page.png) *← Página /portfolio com abas*
-![Footer](./docs/demo/05-footer-contato.png) *← Rodapé e CTAs*
+![Hero desktop](./docs/demo/01-hero-desktop.png) 
+*← Hero completo (desktop)*
+
+![Hero Mobile](./docs/demo/02-hero-mobile.png) 
+*← Hero e menu mobile aberto*
+
+![Portfólio Home](./docs/demo/03-portfolio-home.png) 
+*← Seção de portfólio na home*
+
+![Portfólio](./docs/demo/04-portfolio-page.png) 
+*← Página /portfolio com abas*
+
+![Footer](./docs/demo/05-footer-contato.png) 
+*← Rodapé e CTAs*
 
 ### GIF ou vídeo *(opcional)*
 
