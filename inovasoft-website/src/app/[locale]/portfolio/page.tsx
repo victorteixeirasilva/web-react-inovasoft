@@ -64,7 +64,7 @@ export default async function PortfolioPage({ params }: Props) {
             {t("badge")}
           </p>
           <h1 className="text-3xl font-semibold leading-tight sm:text-5xl">{t("title")}</h1>
-          <p className="max-w-3xl text-base leading-relaxed text-slate-300">{t("lead")}</p>
+          {/* <p className="max-w-3xl text-base leading-relaxed text-slate-300">{t("lead")}</p> */}
         </section>
 
         <PortfolioTabs />
