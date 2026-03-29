@@ -36,7 +36,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: inevolving-web/out/
+          local-dir: inovasoft-website/out/
           # server-dir: public_html/
           dangerous-clean-slate: true
           exclude: .ftp-deploy-sync-state.json
