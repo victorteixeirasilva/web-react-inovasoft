@@ -5,6 +5,7 @@
 **Sites e produtos digitais com performance, clareza e escala — do primeiro clique ao contato no WhatsApp.**
 
 ---
+<img width="1536" height="1024" alt="Generatedimage_1774913807588" src="https://github.com/user-attachments/assets/9599e636-dad8-4bda-b8a8-8457482d0bdc" />
 
 ## Introdução e visão geral
 
