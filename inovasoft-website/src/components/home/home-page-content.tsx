@@ -4,9 +4,10 @@ import { motion, useInView, useMotionValue, useSpring, useTransform } from "fram
 import { Cloud, Code2, Gauge, Menu, ShieldCheck, Sparkles, X } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { homePortfolioProjectIds, portfolioProjectMeta } from "@/data/portfolio";
 import { Link } from "@/i18n/navigation";
 
 type MobileNavLink =
@@ -67,6 +68,7 @@ export default function HomePageContent() {
   const tNav = useTranslations("Nav");
   const tAria = useTranslations("Aria");
   const tCommon = useTranslations("Common");
+  const tPortfolio = useTranslations("portfolio");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const techStack = [...techStackBase, t("techStack.seo")];
@@ -90,12 +92,20 @@ export default function HomePageContent() {
     t("differentials.4"),
   ];
 
-  const homePortfolioItems = [
-    { title: t("homePortfolio.pk"), image: "/images/portfolio-1.png", link: "https://pkhortifruti.inovasoft.tech/" },
-    { title: t("homePortfolio.blog"), image: "/images/portfolio-2.png", link: "https://blogalmabela.inovasoft.tech/" },
-    { title: t("homePortfolio.traffic"), image: "/images/portfolio-3.png", link: "https://trafegosupremo.inovasoft.tech/" },
-    { title: t("homePortfolio.zeus"), image: "/images/portfolio-4.png", link: "https://zeusadvogados.inovasoft.tech/" },
-  ];
+  const homePortfolioItems = useMemo(
+    () =>
+      homePortfolioProjectIds.map((id) => {
+        const meta = portfolioProjectMeta[id];
+        const link = meta?.projectUrl ?? meta?.repositoryUrl ?? "#";
+        return {
+          key: id,
+          title: tPortfolio(`projects.${id}.name`),
+          image: meta.image,
+          link,
+        };
+      }),
+    [tPortfolio],
+  );
 
   const techCards = [
     { icon: Code2, title: t("techCards.frontend.title"), text: t("techCards.frontend.text") },
@@ -352,7 +362,7 @@ export default function HomePageContent() {
           >
             {homePortfolioItems.map((item) => (
               <motion.article
-                key={item.title}
+                key={item.key}
                 variants={fadeItem}
                 className="group overflow-hidden rounded-3xl border border-white/10 bg-slate-900/70"
               >

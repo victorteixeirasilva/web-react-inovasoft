@@ -104,13 +104,7 @@
     "footerContact": "Contact",
     "footerCtaTitle": "Talk to us",
     "footerCta": "Start a conversation",
-    "country": "Brazil",
-    "homePortfolio": {
-      "pk": "PK Hortifruti",
-      "blog": "Blog Alma Bela",
-      "traffic": "Tráfego Supremo",
-      "zeus": "Zeus Advogados"
-    }
+    "country": "Brazil"
   },
   "Common": {
     "viewProject": "View project",
@@ -161,6 +155,10 @@
         "name": "InEvolving Platform",
         "summary": "Web platform with dashboard, authentication, and full user journey."
       },
+      "react_inovasoft_web": {
+        "name": "InovaSoft Web",
+        "summary": "Marketing site on Next.js with categorized portfolio, i18n, Framer Motion, and WhatsApp CTAs."
+      },
       "wp_zeus": {
         "name": "Zeus Advogados",
         "summary": "Project focused on brand authority and fluid navigation."
@@ -204,6 +202,54 @@
       "java_payments_core": {
         "name": "Payments Core Service",
         "summary": "Microservice for payment rules, reconciliation, and auditing."
+      },
+      "java_gateway_service": {
+        "name": "InEvolving Gateway API",
+        "summary": "Reactive Java gateway with JWT, WebFlux, and OpenFeign to orchestrate microservices with security and scalability."
+      },
+      "java_auth_for_mservice": {
+        "name": "AuthForMService",
+        "summary": "Java microservice for service-to-service authentication using BCrypt and RSA-signed JWT (RS256)."
+      },
+      "java_books_service": {
+        "name": "Books-Service",
+        "summary": "Java microservice for per-user book management with RSA JWT, JPA, Swagger, and a status flow (TO DO, IN PROGRESS, COMPLETED)."
+      },
+      "java_email_service": {
+        "name": "MailCore API",
+        "summary": "Java microservice for transactional email delivery via SMTP with RSA JWT validation and OpenAPI documentation."
+      },
+      "java_finance_service": {
+        "name": "Finance Core API",
+        "summary": "Java personal finance microservice with user planning, typed transactions, and period-based queries secured by RSA JWT."
+      },
+      "java_objectives_service": {
+        "name": "Objectives Service",
+        "summary": "Java microservice for user objective management with Tasks Service integration, RSA JWT, and async API endpoints."
+      },
+      "java_categories_service": {
+        "name": "Categories Service",
+        "summary": "Java microservice for per-user objective categories, Objectives integration via OpenFeign, and RSA JWT."
+      },
+      "java_motivation_service": {
+        "name": "Motivation Service",
+        "summary": "Java engagement microservice with motivational emails, dreams, vision board generation, and OpenFeign with auth token caching."
+      },
+      "java_tasks_service": {
+        "name": "TaskFlow Engine",
+        "summary": "Java microservice for task management with recurrence, status workflow (TODO, IN PROGRESS, DONE, LATE, CANCELED), JWT, and OpenFeign."
+      },
+      "java_dashboard_service": {
+        "name": "Dashboard Service",
+        "summary": "Java analytics microservice aggregating categories, objectives, and tasks with productivity metrics and AI recommendations (OpenRouter/Claude)."
+      },
+      "java_spring_cloud_microservices": {
+        "name": "Cloud Commerce Experts",
+        "summary": "E-commerce microservices with Spring Cloud: API Gateway, Eureka, Config Server (Git), product catalog, shopping cart, OpenFeign, and OpenAPI."
+      },
+      "java_clean_arch_email_challenge": {
+        "name": "Email Service API — Clean Architecture",
+        "summary": "Backend hiring challenge: email API with clean architecture in Java/Spring, JWT, AWS SES, validation, and OpenAPI documentation."
       }
     }
   }
