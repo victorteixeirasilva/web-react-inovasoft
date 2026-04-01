@@ -112,6 +112,38 @@
     "backHome": "Volver al inicio",
     "requestProposal": "Solicitar propuesta"
   },
+  "PwaInstall": {
+    "badge": "Instalación PWA",
+    "title": "{project} — instalar como PWA en el móvil",
+    "intro": "La demo GiraReturns RMS funciona en el navegador y puede instalarse en la pantalla de inicio (HTTPS + build de producción). Sigue los pasos en Android o iPhone; luego abre el enlace de la demo para probarla en modo standalone.",
+    "tabAndroid": "Android",
+    "tabIos": "iPhone / iPad",
+    "tip": {
+      "android": "Recomendamos Google Chrome. El PWA completo aplica a la URL publicada (no localhost).",
+      "ios": "En iOS, usa Safari para “Añadir a la pantalla de inicio”. Chrome en iPhone puede limitar este flujo."
+    },
+    "steps": {
+      "android": {
+        "1": "Abre la URL de la demo en Chrome tras pulsar “Abrir demo” abajo (o copia el enlace).",
+        "2": "Toca el menú ⋮ (tres puntos) arriba a la derecha.",
+        "3": "Elige “Instalar app”, “Añadir a la pantalla de inicio” o “Instalar” (el texto varía).",
+        "4": "Confirma en el cuadro de diálogo. El icono aparece en el cajón o en la pantalla de inicio.",
+        "5": "Ábrelo desde el icono: la demo corre en modo standalone, sin barra de direcciones completa."
+      },
+      "ios": {
+        "1": "Abre la URL de la demo en Safari (botón “Abrir demo” abajo).",
+        "2": "Toca Compartir (cuadrado con flecha hacia arriba).",
+        "3": "Desplázate y toca “Añadir a la pantalla de inicio”.",
+        "4": "Edita el nombre si quieres y toca “Añadir”.",
+        "5": "Usa el acceso directo en la pantalla de inicio para abrir la demo como app."
+      }
+    },
+    "gifLabelAndroid": "Demostración animada (Android)",
+    "gifLabelIos": "Demostración animada (iOS)",
+    "gifPlaceholder": "Añade GIF en public/images/pwa-girareturns-install-android.gif o pwa-girareturns-install-ios.gif para mostrar el paso a paso visual aquí.",
+    "openDemo": "Abrir demo",
+    "close": "Cerrar"
+  },
   "PortfolioPage": {
     "badge": "Portafolio completo",
     "title": "Casos organizados por tecnología y especialidad",
@@ -128,6 +160,10 @@
       "react": {
         "label": "Proyectos React",
         "description": "Aplicaciones web modernas con React y Next.js, experiencia premium y arquitectura escalable."
+      },
+      "pwa": {
+        "label": "Progressive Web Apps (PWA)",
+        "description": "Aplicaciones web instalables, con service worker y experiencia cercana a la nativa: ideales para demos, campo y equipos comerciales."
       },
       "mobile": {
         "label": "Apps móviles (PWA / Native)",
@@ -150,6 +186,14 @@
       "react_inevolving": {
         "name": "InEvolving Platform",
         "summary": "Plataforma web con dashboard, autenticación y journey completo del usuario."
+      },
+      "react_girareturns": {
+        "name": "GiraReturns RMS — Panel administrativo (demo)",
+        "summary": "Dashboard de devoluciones y operaciones (remesas, precios, productividad, auditoría) en Next.js 16, React 19, MUI y TypeScript: demo autónoma con datos mock para portafolio."
+      },
+      "pwa_girareturns": {
+        "name": "GiraReturns RMS — PWA",
+        "summary": "La misma demo como Progressive Web App: instálala en la pantalla de inicio en Android o iOS y prueba el panel en modo app, con @ducanh2912/next-pwa y HTTPS."
       },
       "react_inovasoft_web": {
         "name": "InovaSoft Web",

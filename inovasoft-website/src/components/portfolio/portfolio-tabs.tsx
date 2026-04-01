@@ -12,6 +12,8 @@ import {
   type PortfolioCategoryKey,
 } from "@/data/portfolio";
 
+import { PwaInstallModal } from "./pwa-install-modal";
+
 const panelTransition = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
@@ -23,6 +25,7 @@ export function PortfolioTabs() {
   const t = useTranslations("portfolio");
   const tCommon = useTranslations("Common");
   const [activeCategory, setActiveCategory] = useState<PortfolioCategoryKey>("wordpress");
+  const [pwaModal, setPwaModal] = useState<{ url: string; name: string } | null>(null);
 
   const current = useMemo(
     () => portfolioCategories.find((category) => category.key === activeCategory),
@@ -113,14 +116,24 @@ export function PortfolioTabs() {
 
                     <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                       {meta.projectUrl ? (
-                        <a
-                          href={meta.projectUrl}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="inline-flex items-center justify-center gap-2 rounded-full bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
-                        >
-                          {tCommon("viewProject")} <ExternalLink size={14} />
-                        </a>
+                        activeCategory === "pwa" ? (
+                          <button
+                            type="button"
+                            onClick={() => setPwaModal({ url: meta.projectUrl!, name })}
+                            className="inline-flex items-center justify-center gap-2 rounded-full bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
+                          >
+                            {tCommon("viewProject")} <ExternalLink size={14} />
+                          </button>
+                        ) : (
+                          <a
+                            href={meta.projectUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center justify-center gap-2 rounded-full bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
+                          >
+                            {tCommon("viewProject")} <ExternalLink size={14} />
+                          </a>
+                        )
                       ) : null}
                       {meta.repositoryUrl ? (
                         <a
@@ -140,6 +153,13 @@ export function PortfolioTabs() {
           </div>
         </motion.section>
       </AnimatePresence>
+
+      <PwaInstallModal
+        open={pwaModal !== null}
+        onClose={() => setPwaModal(null)}
+        demoUrl={pwaModal?.url ?? ""}
+        projectName={pwaModal?.name ?? ""}
+      />
     </div>
   );
 }

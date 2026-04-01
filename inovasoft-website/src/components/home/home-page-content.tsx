@@ -94,15 +94,18 @@ export default function HomePageContent() {
 
   const homePortfolioItems = useMemo(
     () =>
-      homePortfolioProjectIds.map((id) => {
+      homePortfolioProjectIds.flatMap((id) => {
         const meta = portfolioProjectMeta[id];
-        const link = meta?.projectUrl ?? meta?.repositoryUrl ?? "#";
-        return {
-          key: id,
-          title: tPortfolio(`projects.${id}.name`),
-          image: meta.image,
-          link,
-        };
+        if (!meta) return [];
+        const link = meta.projectUrl ?? meta.repositoryUrl ?? "#";
+        return [
+          {
+            key: id,
+            title: tPortfolio(`projects.${id}.name`),
+            image: meta.image,
+            link,
+          },
+        ];
       }),
     [tPortfolio],
   );

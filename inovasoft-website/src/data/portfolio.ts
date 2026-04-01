@@ -1,4 +1,4 @@
-export type PortfolioCategoryKey = "wordpress" | "react" | "mobile" | "backendJava";
+export type PortfolioCategoryKey = "wordpress" | "react" | "pwa" | "mobile" | "backendJava";
 
 export type PortfolioProjectMeta = {
   image: string;
@@ -23,13 +23,18 @@ export const portfolioCategories: { key: PortfolioCategoryKey; projectIds: strin
       "wp_inovasoft_demo",
     ],
   },
-  { key: "react", projectIds: ["react_inovasoft_web"] },
-  { key: "mobile", projectIds: [] },
+  { key: "react", projectIds: ["react_girareturns", "react_inovasoft_web"] },
+  {
+    key: "pwa",
+    projectIds: ["pwa_girareturns"],
+  },
+  // { key: "mobile", projectIds: [] },
   { key: "backendJava", projectIds: ["java_gateway_service", "java_auth_for_mservice", "java_books_service", "java_email_service", "java_finance_service", "java_objectives_service", "java_categories_service", "java_motivation_service", "java_tasks_service", "java_dashboard_service", "java_spring_cloud_microservices", "java_clean_arch_email_challenge"] },
 ];
 
 /** Subset of projects highlighted on the home page (#portfolio). */
 export const homePortfolioProjectIds: readonly string[] = [
+  "react_girareturns",
   "react_inovasoft_web",
   "java_gateway_service",
   "java_spring_cloud_microservices",
@@ -86,6 +91,27 @@ export const portfolioProjectMeta: Record<string, PortfolioProjectMeta> = {
     image: "/images/wp_inovasoft_demo.png",
     stack: ["WordPress", "Elementor", "SEO", "Performance"],
     projectUrl: "https://wordpress.inovasoft.tech/",
+  },
+  react_girareturns: {
+    image: "/images/girareturns-rms-cover.png",
+    stack: [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "MUI",
+      "Sass",
+      "dayjs",
+      "date-fns",
+      "PWA",
+    ],
+    projectUrl: "https://girareturnsdemo.inovasoft.tech/",
+    repositoryUrl: "https://github.com/victorteixeirasilva/demo-adiministrador-girareturns",
+  },
+  pwa_girareturns: {
+    image: "/images/girareturns-rms-cover.png",
+    stack: ["PWA", "Next.js", "React", "TypeScript", "MUI", "Sass", "@ducanh2912/next-pwa"],
+    projectUrl: "https://girareturnsdemo.inovasoft.tech/",
+    repositoryUrl: "https://github.com/victorteixeirasilva/demo-adiministrador-girareturns",
   },
   react_inovasoft_web: {
     image: "/images/react_inovasoft_web.png",
